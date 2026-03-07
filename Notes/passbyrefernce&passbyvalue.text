@@ -1,0 +1,36 @@
+Java is 100% pass by value.
+Object me reference ki copy pass hoti hai.
+
+Type	            Java kya deta hai
+int, float	         value ka copy
+array, object   	reference ka copy
+❌ pure reference	kabhi nahi
+
+
+1️⃣ Java value copy karta hai
+2️⃣ Object me value = ADDRESS
+3️⃣ Address ka copy pass hota hai
+4️⃣ Isliye data change hota hai
+5️⃣ Reference kabhi change nahi hota
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  ********2D array************
+🔹 2D Array hota kya hai?
+
+2D Array = Array ke andar Array
+
+Simple words me:
+
+2D Array ek table jaisa hota hai (rows + columns)
+
+
+multiplication 2D arrays ka logic  kaise kre ??????
+
