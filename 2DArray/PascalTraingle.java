@@ -10,7 +10,7 @@ public class PascalTraingle {
             System.out.println();
         }
     }
-    
+ // jab hume row to pata ho lkin coulum ka kuch ide nhi ho aur har haar nai coulumn ka count ko ya value ko to uuse "jagged array" bolte hai ;;;
     static int[][] pascal(int n){
         int [][]ans=new int[n][];
         for(int i=0;i<n;i++){ 
