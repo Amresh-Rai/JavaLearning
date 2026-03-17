@@ -3,19 +3,31 @@ import java.util.*;
 
 public class MoveAllZeros {
 
-    static void MoveZeros(int[]arr,int n){
-        int j=0;
-       for(int i=0;i<n;i++){
-        if(arr[i]!=0){
-            arr[j]=arr[i];
-            j++;
-        }
-        }
-        while(j<n){
-            arr[j]=0;
-            j++;
-        }
+    // static void MoveZeros(int[]arr,int n){
+    //     int j=0;
+    //    for(int i=0;i<n;i++){
+    //     if(arr[i]!=0){
+    //         arr[j]=arr[i];
+    //         j++;
+    //     }
+    //     }
+    //     while(j<n){
+    //         arr[j]=0;
+    //         j++;
+    //     }
        
+    // }
+
+    static void moveZeros(int []arr){
+        int j=0;
+        for(int i=0;i<arr.length;i++){
+            if(arr[i]!=0){
+                int temp= arr[i];
+                arr[i]=arr[j];
+                arr[j]=temp;
+                j++;
+            }
+        }
     }
 
     static void PrintArray(int []arr,int n){
@@ -41,9 +53,8 @@ public class MoveAllZeros {
 
 
         System.out.println("the Array after MOving Alll the Zeros At the End :");
-        MoveZeros(arr,n);
+        moveZeros(arr);
         PrintArray(arr,n);
-        
     }
     
 }
